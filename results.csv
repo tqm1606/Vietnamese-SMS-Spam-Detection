@@ -1,0 +1,4 @@
+stage,split,test_samples,ham_samples,spam_samples,accuracy,spam_precision,spam_recall,spam_f1,macro_f1,confusion_matrix,seed,selection_method,evidence
+baseline_checkpoint,test,673,568,105,0.8440,0.5000,0.0095,0.0187,0.4670,"[[567,1],[104,1]]",42,no_training,"executed notebook output"
+head_only_fine_tuning,test,673,568,105,0.9569,0.8878,0.8286,0.8571,0.9159,"[[557,11],[18,87]]",42,best_epoch_by_validation_spam_f1,"executed notebook output"
+full_model_fine_tuning,test,673,568,105,0.9688,0.9468,0.8476,0.8945,0.9381,"[[563,5],[16,89]]",42,best_epoch_by_validation_spam_f1,"executed notebook output"
